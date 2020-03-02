@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'inventory.apps.InventoryConfig',
 ]
 
 MIDDLEWARE = [
@@ -77,8 +78,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'puzzler',
-        'USER': 'puzzler',
-        'PASSWORD': 'puzzler',
+        'USER': 'root',
+        'PASSWORD': '$ecret$auce',
         'HOST': 'localhost',
         'PORT': '',
     }
